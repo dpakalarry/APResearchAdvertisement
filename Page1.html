@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+            window.onload = function () {
+                var adType;
+                adType = Math.floor(Math.random() * 2);
+                if (adType) {
+                    toggle_visibility('sidebar1');
+                    toggle_visibility('sidebar2');
+                    toggle_visibility('sidebar3');
+                    toggle_visibility('sidebar4');
+                    toggle_visibility('sidebar5');
+                    toggle_visibility('sidebar6');
+                }
+                else 
+                    runAd()
+            }
+            function runAd() {
+                setTimeout(toggle_visibility, 60000, 'popupBoxOnePosition');
+                setTimeout(toggle_visibility, 180000, 'popupBoxOnePosition');
+            }
+            function toggle_visibility(id) {
+                var e = document.getElementById(id);
+                if (e.style.display == 'block')
+                    e.style.display = 'none';
+                else
+                    e.style.display = 'block';
+            }
+        </script>
+    </head>
+    <body> 
+        <img id="sidebar1" src="http://www.iheartthemart.com/wp-content/uploads/2015/10/cereal.png" style="right: 0px; left:89%; width:11%; position: fixed; text-align: center; top: 0px; display: none;" alt="TEST FAILED" />
+        <img id="sidebar2" src="http://www.iheartthemart.com/wp-content/uploads/2015/10/cereal.png" style="right: 0px; left:89%; width:11%; position: fixed; text-align: center; top: 260px; display: none;" alt="TEST FAILED" />
+        <img id="sidebar3" src="http://www.iheartthemart.com/wp-content/uploads/2015/10/cereal.png" style="right: 0px; left:89%; width:11%; position: fixed; text-align: center; top: 520px; display: none;" alt="TEST FAILED" />
+        <img id="sidebar4" src="http://www.iheartthemart.com/wp-content/uploads/2015/10/cereal.png" style="left: 0px; right:89%; width:11%; position: fixed; text-align: center; top: 0px; display: none;" alt="TEST FAILED" />
+        <img id="sidebar5" src="http://www.iheartthemart.com/wp-content/uploads/2015/10/cereal.png" style="left: 0px; right:89%; width:11%; position: fixed; text-align: center; top: 260px; display: none;" alt="TEST FAILED" />
+        <img id="sidebar6" src="http://www.iheartthemart.com/wp-content/uploads/2015/10/cereal.png" style="left: 0px; right:89%; width:11%; position: fixed; text-align: center; top: 520px; display: none;" alt="TEST FAILED" />
+        
+        <div id="popupBoxOnePosition" style= "top: 0; left: 0; position: fixed; width: 100%; height: 400%;
+				background-color: rgba(0,0,0,0.7); display: none;">
+            <div class="popupBoxWrapper" style="width: 550px; margin: 100px auto; text-align: left;">
+                <div class="popupBoxContent" style="background-color: #FFF; padding: 20px;">
+                    <p><a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">X</a></p>
+                    <img src="http://www.iheartthemart.com/wp-content/uploads/2016/10/general-mills.png" style="width: 100%"/>
+                </div>
+            </div>
+        </div>
+        <div class="container", style="padding-left:5%; padding-right:5%">
+            <h1 style="text-align:center"><b>Smartphone addiction creates imbalance in brain, study suggests</b></h1>
+            <h5 style="text-align: right">Radiological Society of North America, November 30, 2017</h5>
+            <h2 style="text-align:justify">Researchers have found an imbalance in the brain chemistry of young people addicted to smartphones and the internet, according to a study presented today at the annual meeting of the Radiological Society of North America (RSNA).</h2>
+            <h3 style="text-align:justify">&emsp;According to a recent Pew Research Center study, 46 percent of Americans say they could not live without their smartphones. While this sentiment is clearly hyperbole, more and more people are becoming increasingly dependent on smartphones and other portable electronic devices for news, information, games, and even the occasional phone call.<br />&emsp;
+
+Along with a growing concern that young people, in particular, may be spending too much time staring into their phones instead of interacting with others, come questions as to the immediate effects on the brain and the possible long-term consequences of such habits.<br />&emsp;
+
+Hyung Suk Seo, M.D., professor of neuroradiology at Korea University in Seoul, South Korea, and colleagues used magnetic resonance spectroscopy (MRS) to gain unique insight into the brains of smartphone- and internet-addicted teenagers. MRS is a type of MRI that measures the brain's chemical composition.<br />&emsp;
+
+The study involved 19 young people (mean age 15.5, 9 males) diagnosed with internet or smartphone addiction and 19 gender- and age-matched healthy controls. Twelve of the addicted youth received nine weeks of cognitive behavioral therapy, modified from a cognitive therapy program for gaming addiction, as part of the study.<br />&emsp;
+
+Researchers used standardized internet and smartphone addiction tests to measure the severity of internet addiction. Questions focused on the extent to which internet and smartphone use affects daily routines, social life, productivity, sleeping patterns and feelings.<br />&emsp;
+
+"The higher the score, the more severe the addiction," Dr. Seo said.<br />&emsp;
+
+Dr. Seo reported that the addicted teenagers had significantly higher scores in depression, anxiety, insomnia severity and impulsivity.<br />&emsp;
+
+The researchers performed MRS exams on the addicted youth prior to and following behavioral therapy and a single MRS study on the control patients to measure levels of gamma aminobutyric acid, or GABA, a neurotransmitter in the brain that inhibits or slows down brain signals, and glutamate-glutamine (Glx), a neurotransmitter that causes neurons to become more electrically excited. Previous studies have found GABA to be involved in vision and motor control and the regulation of various brain functions, including anxiety.<br />&emsp;
+
+The results of the MRS revealed that, compared to the healthy controls, the ratio of GABA to Glx was significantly increased in the anterior cingulate cortex of smartphone- and internet-addicted youth prior to therapy.<br />&emsp;
+
+Dr. Seo said the ratios of GABA to creatine and GABA to glutamate were significantly correlated to clinical scales of internet and smartphone addictions, depression and anxiety.<br />&emsp;
+
+Having too much GABA can result in a number of side effects, including drowsiness and anxiety.<br />&emsp;
+
+More study is needed to understand the clinical implications of the findings, but Dr. Seo believes that increased GABA in the anterior cingulate gyrus in internet and smartphone addiction may be related to the functional loss of integration and regulation of processing in the cognitive and emotional neural network.<br />&emsp;
+
+The good news is GABA to Glx ratios in the addicted youth significantly decreased or normalized after cognitive behavioral therapy.<br />&emsp;
+
+"The increased GABA levels and disrupted balance between GABA and glutamate in the anterior cingulate cortex may contribute to our understanding the pathophysiology of and treatment for addictions," Dr. Seo said.</h3>
+        </div>
+    </body>
+</HTML>
